@@ -6,7 +6,7 @@ app = FastAPI(title="DevOps Portfolio App", version="1.0.0")
 @app.get("/")
 def root():
     return {
-        "message": "DevOps Portfolio App running on GKE 🚀",
+        "message": "DevOps Portfolio App running on GKE ",
         "status": "ok",
         "timestamp": datetime.utcnow().isoformat() + "Z"
     }
